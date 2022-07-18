@@ -37,7 +37,7 @@ const QuoteGenerator = () => {
 
       <footer className="footer">
         <a
-          href={`http://twitter.com/share?text=${currentQuote.quote}`}
+          href={`http://twitter.com/share?text=${currentQuote?.quote}`}
           target="_blank"
           className="twitter-link"
         >
